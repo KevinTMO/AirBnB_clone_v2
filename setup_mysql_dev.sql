@@ -1,7 +1,7 @@
 -- script prepares a MySQL server for the project
 -- DB name: hbnb_dev_db
 -- (1)user & (2)password(@'localhost'): (1)hbnb_dev(@..), (2)hbnb_dev_pwd(@..)
-CREATE DATABASE IF NOT EXIST hbnb_dev_db;
+CREATE DATABASE IF NOT EXISTS hbnb_dev_db;
 CREATE USER IF NOT EXISTS 'hbnb_dev'@'localhost'
 	IDENTIFIED BY 'hbnb_dev_pwd';
 
