@@ -3,7 +3,7 @@
 -- (1)user & (2)password(@'localhost'): (1)hbnb_test(@..), (2)hbnb_test_pwd
 CREATE DATABASE IF NOT EXISTS hbnb_test_db;
 CREATE USER IF NOT EXISTS 'hbnb_test'@'localhost'
-	IDENTIFIED BY 'hbnb_dev_pwd';
+	IDENTIFIED BY 'hbnb_test_pwd';
 
 -- (1)Granting All Privileges on hbnb_dev_db DB
 -- (2) Grant Select privilege on performance_schema
