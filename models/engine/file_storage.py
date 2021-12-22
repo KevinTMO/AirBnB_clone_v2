@@ -20,7 +20,7 @@ class FileStorage:
         if cls:
             newDict = {}
             for key, value in self.__objects.items():
-                if cls == value.__class__:
+                if cls == value.__class__ or cls == vale.__class__:
                     newDict[key] = value
             return newDict
         return FileStorage.__objects
