@@ -1,5 +1,6 @@
 #!/usr/bin/python
 """DBStorage engine model description"""
+import models
 from os import getenv
 import BaseModel, Base
 from models.user import User
