@@ -2,19 +2,19 @@
 MySQL
 =========
 
-Tasks|Done|Pending|Desc.
------| [] | [] |--------
- [x]0| [x] | [] | fork
- []1 | [] | [x] | UnitTesting idx #1
- [x]2 | [x] | [] |...
- [x]3 | [x] | [] |...
- [x]4 | [x] | [] |...
- []5 | [] | [x] |...
- []6 | [] | [x] |...
- []7 | [] | [x] |...
- []8 | [] | [x] |...
- []9 | [] | [x] |...
- []10| [] | x[] | DBStorage - Amenity... and BOOM!
+|Tasks|Done|Pending|Desc.|
+|-----|:---|:-----:|-----|
+| [x]0| [x] | [] | fork|
+| []1 | [] | [x] | UnitTesting idx #1|
+| [x]2 | [x] | [] |...|
+| [x]3 | [x] | [] |...|
+| [x]4 | [x] | [] |...|
+| []5 | [] | [x] |...|
+| []6 | [] | [x] |...|
+| []7 | [] | [x] |...|
+| []8 | [] | [x] |...|
+| []9 | [] | [x] |...|
+| []10| [] | x[] | DBStorage - Amenity... and BOOM!|
 
 ***Background Context***
 > Environment variables will be your best friend for this project!
