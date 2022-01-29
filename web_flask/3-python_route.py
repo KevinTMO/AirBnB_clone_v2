@@ -55,18 +55,17 @@ def cText(text):
     return "C {}".format(text)
 
 
-@app.route('/python/')
-@app.route('/python')
-def pythonDef():
-    """
-    Return: Python is cool
-    """
-    return "Python is cool"
+# @app.route('/python/')
+# @app.route('/python')
+# def pythonDef():
+#    """
+#    Return: Python is cool
+#    """
+#    return "Python is cool"
 
-# @app.route('/python', strict_slashes=False)
-
+@app.route('/python', strict_slashes=False)
 @app.route('/python/<text>')
-def pythonText(text):
+def pythonText(text="is cool"):
     """
     Return: requested string
     If theres not string in 'text' then return 'Python is cool'
