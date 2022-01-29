@@ -32,7 +32,7 @@ def helloHBNB():
     """
     Return: Hello HBNB
     """
-    return 'Hello HBNB'
+    return 'Hello HBNB!'
 
 
 if "__main__" == "__name__":
