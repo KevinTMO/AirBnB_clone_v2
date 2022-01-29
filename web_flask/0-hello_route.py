@@ -35,7 +35,7 @@ def helloHBNB():
     return 'Hello HBNB!'
 
 
-if "__main__" == "__name__":
+if __name__ == "__main__":
     """
     Configuring host/port
     """
