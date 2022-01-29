@@ -44,6 +44,7 @@ def HBNB():
     """
     return 'HBNB'
 
+
 @app.route('/c/<text>')
 def cText(text):
     """
