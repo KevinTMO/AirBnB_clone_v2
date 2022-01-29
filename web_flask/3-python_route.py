@@ -64,6 +64,7 @@ def pythonDef():
     return "Python is cool"
 
 # @app.route('/python', strict_slashes=False)
+
 @app.route('/python/<text>')
 def pythonText(text):
     """
