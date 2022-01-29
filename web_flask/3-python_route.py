@@ -54,6 +54,7 @@ def cText(text):
     text = text.replace("_", " ")
     return "C {}".format(text)
 
+
 @app.route('/python', strict_slashes=False)
 @app.route('/python/<text>')
 def pythonText(text="is cool"):
