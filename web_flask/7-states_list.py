@@ -24,6 +24,7 @@ Write a script that starts a Flask web application
 
 from flask import Flask, request
 from models import *
+from models import storage
 
 app = Flask(__name__)
 
