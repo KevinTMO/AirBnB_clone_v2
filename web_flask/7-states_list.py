@@ -34,6 +34,7 @@ def statesList():
     """
     Display a list of states in a specific order
     """
+    states = sorted(list(storage.all('State').values()), key=lambda x: x.name)
     return render_templates('7-states_list.html', states=states)
 
 
