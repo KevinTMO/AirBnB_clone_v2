@@ -58,7 +58,7 @@ class DBStorage:
         [x]. If cls is None, queries all types of objects.
         Return:
             Dict of queried all type OBJS classes in the format;
-            * key = <class name>.<obj id> 
+            * key = <class name>.<obj id>
             * value = object
         """
         if cls is None:
@@ -102,3 +102,9 @@ class DBStorage:
         """scoped_session: to make sure Session is thread-safe"""
         Session = scoped_session(self._session)
         self.__session = Session()
+
+    def close(self):
+        """
+        Remove an attribute from the private session
+        """
+        self.__session.remove()
