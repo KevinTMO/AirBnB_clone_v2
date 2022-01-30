@@ -37,8 +37,8 @@ def statesList():
     return render_templates('7-states_list.html', states=states)
 
 
-@app.teardown_appcontext('/')
-def teardown(ext):
+@app.teardown_appcontext
+def teardown(exception):
     """
     Close a connection after a request in the app
     """
