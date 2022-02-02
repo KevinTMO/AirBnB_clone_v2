@@ -107,4 +107,5 @@ class DBStorage:
         """
         Remove an attribute from the private session
         """
-        self.__session.remove()
+        self.__session.close()
+        # self.__session.remove()
