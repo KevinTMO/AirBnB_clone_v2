@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """DBStorage engine model description"""
 import models
 from os import getenv
